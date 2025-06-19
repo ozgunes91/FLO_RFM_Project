@@ -39,7 +39,7 @@ import pandas as pd
 import datetime as dt
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", 500)
-df = pd.read_csv("FLOMusteriSegmentasyonu/flo_data_20k.csv")
+df = pd.read_csv("data/flo_data_20k.csv")
            # 2. "Veri setinde
                      # a. İlk 10 gözlem,
                         df.head(10)
